@@ -37,6 +37,7 @@ function setup() {
 
 	
 	Engine.run(engine);
+	console.log(bobObject1.x);
   
 }
 
@@ -63,6 +64,7 @@ function draw() {
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
 
+		
 		Matter.Body.applyForce(bobObject1.body,bobObject1.body.position, {x:200,y:600})
 	}
 }
