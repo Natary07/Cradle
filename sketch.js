@@ -63,7 +63,7 @@ function draw() {
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
 
-		Matter.Body.applyForce(bobObject11.body,bobObject1.body.position, {x:85,y:-85})
+		Matter.Body.applyForce(bobObject11.body,bobObject1.body.position, {x:200,y:600})
 	}
 }
 
